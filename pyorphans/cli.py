@@ -4,6 +4,10 @@ import sys
 from .utils import find_orphan_dirs
 
 
+CTRL_RED = '\033[91m'
+CTRL_END = '\033[0m'
+
+
 def main(root_dir):
     """
     Main method for command-line execution. Prints details to stdout.
@@ -32,7 +36,10 @@ def main(root_dir):
     else:
         # orphans found
         sys.exit(
-            'If these are valid standalone python scripts, add them to .pyorphans_ignore file.'
+            CTRL_RED +
+            'If these are valid standalone python scripts, add their '
+            'parent dirs to the .pyorphans_ignore file.' +
+            CTRL_END
         )
 
 
