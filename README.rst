@@ -7,7 +7,7 @@ pyorphans
    :target: https://pypi.python.org/pypi/pyorphans/
    :alt: Latest PyPI version
 
-.. |Build Status| image:: https://circleci.com/gh/depop/pyorphans.svg?style=shield&circle-token=66ab09119c495365d662fe170e5efcc4467e3b37
+.. |Build Status| image:: https://circleci.com/gh/depop/pyorphans.svg?style=shield&circle-token=772399d6adddb34029f8360892979c06b36c4df8
     :alt: Build Status
 
 Find dirs which appear to be broken python packages, i.e. dirs which
