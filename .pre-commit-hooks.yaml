@@ -1,0 +1,6 @@
+-   id: pyorphans
+    name: pyorphans
+    description: Finds potentially orphaned modules, in packages which are missing an __init__.py
+    entry: pyorphans
+    language: python
+    require_serial: true
