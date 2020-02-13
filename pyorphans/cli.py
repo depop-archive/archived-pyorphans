@@ -21,7 +21,7 @@ def main(*root_dirs):
         orphans_generator = find_orphan_dirs(root_dir)
         while True:
             try:
-                orphan_dir, orphan_files = orphans_generator.next()
+                orphan_dir, orphan_files = next(orphans_generator)
             except StopIteration:
                 break
 

@@ -11,4 +11,4 @@ tag:
 	git push --tags
 
 test:
-	py.test -v -s --ipdb tests/
+	py.test -v -s --pdb --pdbcls=IPython.terminal.debugger:TerminalPdb tests/
